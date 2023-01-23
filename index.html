@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website - By myself</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,700;0,800;1,800&family=Poppins:wght@100;200;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Asset 1.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="hidemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer & Designer</p>
+                <h1>Hi, I'm <span>Saloni</span><br> Singh From UP, India
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/picture2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a computer science student and also a freelancer for my all needs I am a Independent person. My all focuse on my currier .I love coding and the most.. Graphic designing.
+                        I help so many people for grow their business by the branding of the companies. On fiverr my all client are happy and satisfied with my work.
+                       I am also so much interested in coding and learn languages I learn basic C language and HTML. And C++ & CSS in the progress.
+                       With all the coding I want a pro level web Designer ,App Development, Web Development etc. 
+                       When I fill bore I love to trevell with music and enjoy</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Coder</span><br>C, C++, HTML</li>
+                            <li><span>Graphics Designer</span><br>Designing Logo and Thumbnails</li>
+                            <li><span>Web Development</span><br> Web App interfaces</li>
+              
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2020-Current</span><br>Graphic Designer at Fiverr</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>MCA from AKTU Lucknow</li>
+                            <li><span>2022</span><br> BSc from MGKVP Varanasi</li>
+                            <li><span>2019</span><br>Intermediate from BSSIC Hathiyar Varanasi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                        Web Design
+                    </h2>
+                    <p> If you want a Website for your business then I can give you a perfect website as per your requirement with very effective way </p>
+                    <a href="https://www.fiverr.com/share/1awbbk">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>
+                        Graphics Design
+                    </h2>
+                    <p>Received orders two days after I created my account
+                     <br> Best logo in all formats
+                       <br> Satisfaction with my work like so many other happy clients</p>
+                    <a href="https://www.fiverr.com/share/1awbbk">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>
+                        App Design
+                    </h2>
+                    <p>Looking for App Design Services? Browse Fiverr Freelancers by skills, reviews, and price. Select the right Freelancer to meet your needs and budget. </p>
+                    <a href="https://www.fiverr.com/share/1awbbk">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/working1.png" alt="">
+                    <div class="layer">
+                        <h3>Musical Website</h3>
+                        <p>This app is a simple musical app where you see some buttons when you click on that button then song will be play.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/working2.png" alt="">
+                    <div class="layer">
+                        <h3>Marketing App(Clone)</h3>
+                        <p>This is basically a marketing website where custmer get their content with marketing techniques this is a clone website  </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/working3.png" alt="">
+                    <div class="layer">
+                        <h3>University Site</h3>
+                        <p>Eduford is a university site, Where university shows their courses facalities and fee structure .</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------------- Contact------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>salonisinghraghuvanshi@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9580163858</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/saloniraghuvanshi_/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/saloni-singh-raghuvanshi-417b0b1a9"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/SaloniSinghRag1"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+                <a href="images/Saloni Singh- Resume.pdf" download class="btn btn2">Download CV</a>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Copyright @Saloni. Made by <i class="fa-solid fa-heart"></i> My Self</p>
+    </div>
+
+    <!-- Javascript -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablinks of tablinks) {
+                tablinks.classList.remove("active-links");
+            }
+            for (tabcontents of tabcontents) {
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+        var navlinks = document.getElementById("sidemenu");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyxYIJvliAUHEZTgD9sPvLEnK9RawRO0BUeeHwrRap0I_PPLsWmq_38gvvN5B8BeO-Y/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+
+    </script>
+    <script src="https://kit.fontawesome.com/3f4e5c6e39.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
